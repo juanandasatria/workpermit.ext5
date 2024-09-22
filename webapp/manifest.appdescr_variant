@@ -1,0 +1,60 @@
+{
+  "fileName": "manifest",
+  "layer": "CUSTOMER_BASE",
+  "fileType": "appdescr_variant",
+  "reference": "i2d.eam.workpermit.manages1",
+  "id": "customer.workpermit.ext5",
+  "namespace": "apps/i2d.eam.workpermit.manages1/appVariants/customer.workpermit.ext5/",
+  "version": "0.1.0",
+  "content": [
+    {
+    "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+    "content": {
+        "modelId": "i18n"
+    },
+    "texts": {
+        "i18n": "i18n/i18n.properties"
+    }
+},
+    {
+    "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+    "content": {
+        "modelId": "@i18n"
+    },
+    "texts": {
+        "i18n": "i18n/i18n.properties"
+    }
+},
+    {
+    "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+    "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ListReport|C_WorkPermitTP"
+    },
+    "texts": {
+        "i18n": "i18n/ListReport/C_WorkPermitTP/i18n.properties"
+    }
+},
+    {
+    "changeType": "appdescr_ui5_addNewModelEnhanceWith",
+    "content": {
+        "modelId": "i18n|sap.suite.ui.generic.template.ObjectPage|PermitDetails"
+    },
+    "texts": {
+        "i18n": "i18n/ObjectPage/PermitDetails/i18n.properties"
+    }
+},
+    {
+    "changeType": "appdescr_ui5_setMinUI5Version",
+    "content": {
+        "minUI5Version": "1.120.19"
+    }
+},
+    {
+      "changeType": "appdescr_app_setTitle",
+      "content": {},
+      "texts": {
+        "i18n": "i18n/i18n.properties"
+      }
+    }
+  ]
+}
